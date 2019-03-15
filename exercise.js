@@ -83,7 +83,7 @@ console.log(oneLove);
 /*8. Help Nike sell more overpriced sneakers by changing their slogan from an array into a string. Convert the shoe array and assign it to a variable named `shoeString`. Console.log this new variable.*/
 
 var shoe = ["just", "do", "it"];
-var shoeString = shoe.join();
+var shoeString = shoe.join(" ");
 console.log(shoeString);
 
 
@@ -94,7 +94,8 @@ array.slice(index start, index end)*/
 "Yeezy", "Kimmy K" and "Lamar Odom". Unfriend these ungrateful people and assign them to a new variable named `unFriend`. Console.log this new variable.*/
 
 var fbFriends = ["Khalid", "Yeezy", "Kimmy K", "Lamar Odom", "Lebron", "Warren Buffet"];
-
+var unfriend = fbFriends.slice(1, 4);
+console.log(unfriend);
 
 
 
