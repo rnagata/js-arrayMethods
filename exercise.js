@@ -42,7 +42,9 @@ console.log(yoda);
 /*4. People been lining up for hours to get the newest iphone release. Help manage the unruly crowd of privileged customers by serving them one at a time and assiging it to a variable named `nowServing`. Console.log this new variable as well as the waitList.*/
 
 var waitList = ["Chance the Rapper", "Khalid", "Tay-Tay", "Barry Manilow", "Piko Taro"];
-
+var nowServing = waitList.shift();
+console.log(waitList);
+console.log(nowServing);
 
 
 /*The array.unshift() adds one or more elements to the front of an array and returns the new length of the array*/
